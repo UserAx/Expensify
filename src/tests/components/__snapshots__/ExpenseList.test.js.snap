@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseList with expenses 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <ExpenseListItem
+      amount={1500}
+      createdAt={0}
+      description="rent"
+      id="staticIdforTesting"
+      key="staticIdforTesting"
+      note="This month's rent."
+    />
+    <ExpenseListItem
+      amount={150}
+      createdAt={-345600000}
+      description="Shoping"
+      id="staticIdforTesting"
+      key="staticIdforTesting"
+      note="Brought eggs."
+    />
+    <ExpenseListItem
+      amount={2000}
+      createdAt={345600000}
+      description="Gas Bill"
+      id="staticIdforTesting"
+      key="staticIdforTesting"
+      note="This month's gas bill."
+    />
+  </div>
+</div>
+`;
+
+exports[`should render ExpenseList with no expenses provided 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No Expenses
+      </span>
+    </div>
+  </div>
+</div>
+`;
